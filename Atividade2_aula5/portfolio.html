@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Desenvolvedor Web">
+    <meta name="keywords" content="HTML5, semântica, desenvolvimento">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio - Erick Teixeira Silva</h1>
+        <img src="imagens/foto-pessoal.png" alt="Foto pessoal" width="150" height="150">
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <h2 id="sobre">Sobre Mim</h2>
+        <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no senai.</p>
+        <p>Tenho conhecimentos em <em>HTML5, CSS</em> e estou aprendendo <em>JavaScript.</em></p>
+
+        <h2>Minhas Habilidades:</h2>
+
+        <ul>
+            <li>HTML5 Semântico</li>
+            <li>CSS3 e Responsividade</li>
+            <li>Formulários e validação</li>
+            <li>Estrutura de Dados</li>
+        </ul>
+    </section>
+    <hr>   
+    <section>
+        <h2 id="projetos">Meus Projetos</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Projeto</th>
+                    <th>Tecnologias</th>
+                    <th>Status</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Projeto Filme</td>
+                    <td>HTML, CSS e JavaScript</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/erickssen00/projeto-filme">Ver Projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Identidade Itaú</td>
+                    <td>Figma</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/erickssen00/indentidade-ita-">Ver Projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Projeto loja de jogos</td>
+                    <td>HTML</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/erickssen00/atividade-aula-05">Ver Projeto</a></td>
+                </tr>
+            </thead>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2 id="contato">Entre em Contato</h2>
+        <form action="enviar.php" method="post">
+            <fieldset>
+                <legend>Dados de Contato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+        </form>
+    </section>
+    
+    <footer>
+            <p>&copy; 2026 Meta. Desenvolvimento durante o curso do SENAI.</p>
+            <hr>
+            <address>
+                Contato: <a href="mailto:erick.t.silva6@edu.senai.br">erick.t.silva6@edu.senai.br</a>
+                |
+                <a href="tel:11 4002 8922">11 4002-8922</a>
+            </address>
+     </footer>
+</body>
+</html>
